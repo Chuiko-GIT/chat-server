@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine AS builder
+FROM golang:1.22.5-alpine AS builder
 
 COPY . /github.com/Chuiko-GIT/chat/source/
 WORKDIR /github.com/Chuiko-GIT/chat/source/
