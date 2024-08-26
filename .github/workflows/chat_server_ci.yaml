@@ -7,8 +7,8 @@ on:
     branches: [ main, master ]
 
 env:
-  IMAGE_NAME: "chat-server"
-  CONTAINER_NAME: "chat-server"
+  IMAGE_NAME: "chat-service"
+  CONTAINER_NAME: "chat-service"
 
 jobs:
   image-build-and-push:
