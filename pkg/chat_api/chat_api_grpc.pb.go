@@ -63,7 +63,7 @@ func (c *chatApiClient) SendMessage(ctx context.Context, in *SendMessageRequest,
 	return out, nil
 }
 
-// ChatApiServer is the server API for ChatApi service.
+// ChatApiServer is the service API for ChatApi service.
 // All implementations must embed UnimplementedChatApiServer
 // for forward compatibility
 type ChatApiServer interface {

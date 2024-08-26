@@ -5,7 +5,7 @@ package chat_api;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/Chuiko-GIT/chat-server/pkg/chat_api;chat_api";
+option go_package = "github.com/Chuiko-GIT/chat-service/pkg/chat_api;chat_api";
 
 service ChatApi {
   rpc Create(CreateRequest) returns (CreateResponse);
